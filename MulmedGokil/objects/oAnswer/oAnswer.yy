@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oDialog",
+  "name": "oAnswer",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
@@ -25,11 +25,13 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"teks","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\"\"","varType":2,},
+  ],
   "solid": false,
   "spriteId": {
-    "name": "sDialog",
-    "path": "sprites/sDialog/sDialog.yy",
+    "name": "sAnswer",
+    "path": "sprites/sAnswer/sAnswer.yy",
   },
   "spriteMaskId": null,
   "visible": true,
